@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "events-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-24",
+  "observability": { "enabled": true },
+  "assets": { "directory": "./public" },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "events-db",
+      "database_id": "ASENDA_OMA_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
