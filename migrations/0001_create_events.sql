@@ -13,29 +13,38 @@ CREATE TABLE IF NOT EXISTS events (
 -- Pildi tee vastab failile kaustas public/images/.
 INSERT INTO events (title, description, starts_at, location, tags, url, image_url) VALUES
   (
-    'TypeScripti töötuba',
-    'Praktiline töötuba TypeScripti põhimõtetest.',
-    '2026-10-01T17:30',
-    'Haapsalu kolledž, arvutiklass 204',
-    '["IT","TypeScript","töötuba"]',
-    'https://www.tlu.ee/haapsalu',
-    '/images/typescripti-tootuba.svg'
-  ),
-  (
-    'Külalisloeng UX-ist',
-    'Disainer ja arendaja räägivad koostööst.',
-    '2026-10-14T18:00',
-    'Haapsalu kolledž, auditoorium 101',
-    '["UX","loeng"]',
+    'Mõisate saladused',
+    'Giidiga retk, kus tutvume Raplamaa mõisakultuuri, mõisnike elu ja vanade hoonetega seotud lugudega.',
+    '2026-09-19T12:00',
+    'Alu mõis, Raplamaa',
+    '["retk","mõisad","ajalugu"]',
     NULL,
-    '/images/ux-loeng.svg'
+    NULL
   ),
   (
-    'Tudengiprojektide näitus',
-    'Semestri projektide avalik esitlus.',
-    '2026-12-10T16:00',
-    'Haapsalu kolledži fuajee',
-    '["näitus","tudengielu"]',
+    'Öine ajaloorännak Raplas',
+    'Õhtune jalutuskäik läbi Rapla, kus avastame vanu hooneid, kadunud paiku ja kohaliku ajalooga seotud legende.',
+    '2026-09-26T20:00',
+    'Rapla keskväljak',
+    '["ekskursioon","kodulugu","ajalugu"]',
+    NULL,
+    '/images/retk.png'
+  ),
+  (
+    'Oma suguvõsa jälgedel',
+    'Praktiline töötuba algajatele, kus õpime koostama sugupuud ning otsima esivanemate kohta teavet arhiiviallikatest.',
+    '2026-10-10T11:00',
+    'Rapla Kultuurikeskus',
+    '["töötuba","genealoogia","arhiiv"]',
+    NULL,
+    NULL
+  ),
+  (
+    'Eesti elu 1990ndatel',
+    'Vestlusõhtu Eesti pöördelisest kümnendist: taasiseseisvumine, kroon, läänekaubad, popkultuur ja muutuv igapäevaelu.',
+    '2026-10-24T18:00',
+    'Rapla Kultuurikeskus',
+    '["vestlusõhtu","lähiajalugu","Eesti"]',
     NULL,
     NULL
   );
